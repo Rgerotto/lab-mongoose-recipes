@@ -38,6 +38,8 @@ mongoose
     // Run your code here, after you have insured that the connection was made
     return Recipe.create(carbonara)
     })
+
+    //interaction 3
     .then(() => {
       console.log(carbonara.title)
       return Recipe.insertMany(dataJson);
